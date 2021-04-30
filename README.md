@@ -4,7 +4,7 @@ UCSD Machine Learning Challenge
 <img src="D3_data_journalism/assets/other/images/demo.gif" width="800" height="412"/>
 
 
-This repository is for the machine learning assignment for the UCSD Data Bootcamp. The concept of the assignment is to use train classification models on pre-classified data and fine tune their paramaters to improve their accuracies. The assignment covers the following concepts:
+This repository is for the machine learning assignment for the UCSD Data Bootcamp. The concept of the assignment is to use train classification models on pre-classified data and fine tune their paramaters to improve their accuracies. The subject matter involves finding potential exoplanets from objects detected within telescopic information from the Kepler Space Observatory. The assignment covers the following concepts:
 - Preprocessing data for model fitting (normalizing data through scaling)
 - Feature selection using feature importances from preliminarily trained models
 - Splitting data into test and train measures
@@ -57,3 +57,7 @@ Accuracy: 0.7547176882381621\
 The resulting KNeighbors and Random Forest models scored higher than 85% accuracy, making these suitable for application on new data. As this is only a model, any results from the model should be forwarded to subject matter experts to further investigate the candidate observations. The SVC model showed less than desireable accuracy at 71% and will not be considered for application.
 
 The results also show that the four selected features likely serve as good indicators of whether the KOI in question is an exoplanet or not.
+
+Source Credit:
+https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+
