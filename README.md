@@ -1,7 +1,7 @@
 # machine-learning-challenge
 UCSD Machine Learning Challenge
 
-<img src="D3_data_journalism/assets/other/images/demo.gif" width="800" height="412"/>
+<img src="resources/images/exoplanet_banner.jpg" width="800" height="412"/>
 
 
 This repository is for the machine learning assignment for the UCSD Data Bootcamp. The concept of the assignment is to use train classification models on pre-classified data and fine tune their paramaters to improve their accuracies. The subject matter involves finding potential exoplanets from objects detected within telescopic information from the Kepler Space Observatory. The assignment covers the following concepts:
