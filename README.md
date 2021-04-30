@@ -54,7 +54,17 @@ Parameters: {'C': 5, 'gamma': 1e-06}\
 Accuracy: 0.7547176882381621\
 
 # Results
-The resulting KNeighbors and Random Forest models scored higher than 85% accuracy, making these suitable for application on new data. As this is only a model, any results from the model should be forwarded to subject matter experts to further investigate the candidate observations. The SVC model showed less than desireable accuracy at 71% and will not be considered for application.
+The resulting KNeighbors and Random Forest models scored higher than 85% accuracy, making these suitable for further review. Classification reports were produced as shown below:
+*The SVC model showed less than desireable accuracy at 71% and will not be considered for application.
+
+Random Forest\
+<img src="resources/images/classification_report_rf.png" width="400" height="170"/>
+
+KNN\
+<img src="resources/images/classification_report_knn.png" width="400" height="170"/>
+
+
+Reviewing the reports, the Random Forest has higher scores overall over the KNN model, making the Random Forest model the choice to predict outcomes on new observations. As this is only a model, any results from the model should be forwarded to subject matter experts to further investigate the candidate observations. 
 
 The results also show that the four selected features likely serve as good indicators of whether the KOI in question is an exoplanet or not.
 
