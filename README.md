@@ -51,7 +51,7 @@ Accuracy: 0.8624786237710941
 
 SVC\
 Parameters: {'C': 5, 'gamma': 1e-06}\
-Accuracy: 0.7547176882381621\
+Accuracy: 0.7547176882381621
 
 # Results
 The resulting KNeighbors and Random Forest models scored higher than 85% accuracy, making these suitable for further review. Classification reports were produced as shown below:
